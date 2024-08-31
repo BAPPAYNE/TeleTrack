@@ -28,8 +28,7 @@ This tool monitors Telegram channels for specific keywords in channel descriptio
    ```
 2. **Install the required packages:**
   ```bash
-  pip install telethon spacy fuzzywuzzy
-  python -m spacy download en_core_web_sm
+  pip install telethon spacy fuzzywuzzy && python -m spacy download en_core_web_sm
   ```
 **Set up your Telegram API credentials:**
 
