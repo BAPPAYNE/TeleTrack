@@ -40,7 +40,7 @@ This tool monitors Telegram channels for specific keywords in channel descriptio
    phone = 'YOUR_PHONE'
    ```
 
-3. **Usage**:</br>
+## Usage**:</br>
    You can run the script using the following command:
     ```bash
     python TeleScan.py --message_keywords <keyword1> <keyword2> [--channel_keywords <keyword1> <keyword2>]
@@ -48,19 +48,19 @@ This tool monitors Telegram channels for specific keywords in channel descriptio
      `--message_keywords`: List of keywords to search for in messages (mandatory).
      `--channel_keywords`: List of keywords to search for channels (optional). If not provided, default keywords will be used.
 
-4. **Databases**
+   **Databases**
 
      telegram_messages.db: Stores extracted messages with columns for channel name, sender ID, sender name, and message content.
      telegram_channels.db: Stores channel information with columns for channel ID, name, and status.
 
-5. **Troubleshooting**
+   **Troubleshooting**
    
      Rate Limit Errors: If you encounter rate limit errors, the script will wait before retrying. Ensure you don't exceed the rate limits.
      Private Channels: If a channel is private or restricted, it will be skipped.
 
-   **Contributing**
-     Feel free to submit issues or pull requests if you have suggestions or improvements.
+## Contributing
+   Feel free to submit issues or pull requests if you have suggestions or improvements.
 
-   **License**
-     This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+   This project is licensed under the MIT License - see the LICENSE file for details.
 
