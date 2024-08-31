@@ -40,22 +40,22 @@ Replace the placeholders in the script with your own telegram api_id, api_hash, 
    phone = 'YOUR_PHONE'
    ```
 
-**Usage**:
+3. **Usage**:
    *Run the script:*
-   You can run the script using the following command:
+      You can run the script using the following command:
 
- ```bash
- python TeleScan.py --message_keywords <keyword1> <keyword2> [--channel_keywords <keyword1> <keyword2>]
- ```
-  `--message_keywords`: List of keywords to search for in messages (mandatory).
-  `--channel_keywords`: List of keywords to search for channels (optional). If not provided, default keywords will be used.
+    ```bash
+    python TeleScan.py --message_keywords <keyword1> <keyword2> [--channel_keywords <keyword1> <keyword2>]
+    ```
+     `--message_keywords`: List of keywords to search for in messages (mandatory).
+     `--channel_keywords`: List of keywords to search for channels (optional). If not provided, default keywords will be used.
 
-**Databases**
+4. **Databases**
 
   telegram_messages.db: Stores extracted messages with columns for channel name, sender ID, sender name, and message content.
   telegram_channels.db: Stores channel information with columns for channel ID, name, and status.
 
-**Troubleshooting**
+5. **Troubleshooting**
 
   Rate Limit Errors: If you encounter rate limit errors, the script will wait before retrying. Ensure you don't exceed the rate limits.
   Private Channels: If a channel is private or restricted, it will be skipped.
