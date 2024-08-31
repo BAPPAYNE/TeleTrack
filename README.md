@@ -27,26 +27,26 @@ This tool monitors Telegram channels for specific keywords in channel descriptio
    cd TeleScan
    ```
 2. **Install the required packages:**
-  ```bash
-  pip install telethon spacy fuzzywuzzy && python -m spacy download en_core_web_sm
-  ```
+   ```bash
+   pip install telethon spacy fuzzywuzzy && python -m spacy download en_core_web_sm
+   ```
 **Set up your Telegram API credentials:**
 
 Replace the placeholders in the script with your own telegram api_id, api_hash, and phone number.
 
-```python
-api_id = 'YOUR_API'
-api_hash = 'YOUR_HASH'
-phone = 'YOUR_PHONE'
-```
+   ```python
+   api_id = 'YOUR_API'
+   api_hash = 'YOUR_HASH'
+   phone = 'YOUR_PHONE'
+   ```
 
-**Usage**
-*Run the script:*
-  You can run the script using the following command:
+**Usage**:
+   *Run the script:*
+   You can run the script using the following command:
 
-    ```bash
-    python TeleScan.py --message_keywords <keyword1> <keyword2> [--channel_keywords <keyword1> <keyword2>]
-    ```
+ ```bash
+ python TeleScan.py --message_keywords <keyword1> <keyword2> [--channel_keywords <keyword1> <keyword2>]
+ ```
   `--message_keywords`: List of keywords to search for in messages (mandatory).
   `--channel_keywords`: List of keywords to search for channels (optional). If not provided, default keywords will be used.
 
