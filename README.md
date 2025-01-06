@@ -23,7 +23,7 @@ TeleTrack monitors Telegram channels for specific keywords in channel descriptio
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/BAPPAYNE/TeleScan.git
+   git clone https://github.com/BAPPAYNE/TeleTrack.git
    cd TeleTrack
    ```
 2. **Install the required packages:**
