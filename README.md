@@ -1,6 +1,6 @@
-# TeleTrack
+# WatchHound
 
-TeleTrack monitors Telegram channels for specific keywords in channel descriptions and message content. It uses the Telethon library to interact with Telegram's API and stores relevant data in SQLite databases.
+WatchHound monitors Telegram channels for specific keywords in channel descriptions and message content. It uses the Telethon library to interact with Telegram's API and stores relevant data in SQLite databases.
 
 ## Features
 
@@ -23,8 +23,8 @@ TeleTrack monitors Telegram channels for specific keywords in channel descriptio
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/BAPPAYNE/TeleTrack.git
-   cd TeleTrack
+   git clone https://github.com/BAPPAYNE/WatchHound.git
+   cd WatchHound
    ```
 2. **Install the required packages:**
    ```bash
@@ -43,7 +43,7 @@ TeleTrack monitors Telegram channels for specific keywords in channel descriptio
 ## Usage**:</br>
    You can run the script using the following command:
     ```bash
-    python TeleTrack.py --message_keywords <keyword1> <keyword2> [--channel_keywords <keyword1> <keyword2>]
+    python WatchHound.py --message_keywords <keyword1> <keyword2> [--channel_keywords <keyword1> <keyword2>]
     ```
      `--message_keywords`: List of keywords to search for in messages (mandatory).
      `--channel_keywords`: List of keywords to search for channels (optional). If not provided, default keywords will be used.
